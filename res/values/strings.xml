@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MainScreen</string><string name="hello">Hello World, AndroidConnectingToPhpMySQLActivity!</string>
+    <string name="str_img1">Image1</string><string name="str_img2">Image2</string><string name="str_img3">Image3</string><string name="str_btn_stop">Зогсоох</string><string name="str_btn_start">Зарагдах утасны Slide (Эхлэх)</string><string name="str_img4">Image4</string>
+  
+    
+    
+    <string name="title">Холбогдох хэсэг</string>
+    <string name="registration">Бүртгэх хэсэг</string>
+ 
+    <string name="Exit">Гарах</string>
+    <string name="Clear">Цэвэрлэх</string>
+    <string name="Register">Бүртгүүлэх</string>
+    <string name="Login">Холбогд</string><string name="title1">Захиалга өгөх</string><string name="Back">Буцах</string>
+  
+  
+    <string name="str_zahailah">Захиалах</string>
+    
+
+    
+    
+    
+
+</resources>

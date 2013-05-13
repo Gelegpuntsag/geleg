@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/imgq"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+	
+    <!--  Sample Dashboard screen with Two buttons -->
+    <Button android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_blue"
+        android:text="Утасны нэрс харах"
+        android:layout_marginTop="25dip"/>
+
+    <Button
+        android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/custom_button_blue"
+        android:text="Шинэ загвар оруулах " />
+    
+  <RelativeLayout 
+      android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+    <Button 
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_blue"
+        android:text="@string/str_btn_start"
+        
+        
+        />
+       
+	    <ViewFlipper 
+	        android:id="@+id/flipper1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:flipInterval="3000"
+	        android:inAnimation="@android:anim/slide_in_left"
+	        android:outAnimation="@android:anim/slide_out_right"
+	        android:layout_centerInParent="true"
+	        
+	        >
+	        
+	        
+	        <ImageView 
+	            android:src="@drawable/img1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:contentDescription="@string/str_img1"
+	            android:layout_gravity="center_horizontal"
+	            />
+	        
+	        <ImageView 
+	            android:src="@drawable/img2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:contentDescription="@string/str_img2"
+	            android:layout_gravity="center_horizontal"
+	            />
+	        
+	        <ImageView 
+	            android:src="@drawable/img3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:contentDescription="@string/str_img3"
+	            android:layout_gravity="center_horizontal"
+	            />
+	         <ImageView 
+	            android:src="@drawable/img4"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:contentDescription="@string/str_img4"
+	            android:layout_gravity="center_horizontal"
+	            />
+	       
+	        
+	    </ViewFlipper>
+
+	    <Button
+	        android:id="@+id/logout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/flipper1"
+	        android:background="@drawable/custom_button_blue"
+	        android:text="Гарах" />
+
+</RelativeLayout>
+
+
+</LinearLayout>
