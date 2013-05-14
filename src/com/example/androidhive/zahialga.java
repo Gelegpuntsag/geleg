@@ -85,7 +85,7 @@ public class zahialga extends Activity {
 		@Override
 		public void onClick(View view) {
 			// Launching All products Activity
-			Intent i = new Intent(getApplicationContext(), MainScreenActivity.class);
+			Intent i = new Intent(getApplicationContext(), login.class);
 			startActivity(i);
 			
 		}
